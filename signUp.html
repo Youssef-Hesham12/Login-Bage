@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css file/all.min.css">
+    <link rel="stylesheet" href="./css file/bootstrap.min.css">
+    <link rel="stylesheet" href="./css file/style-index.css">
+</head>
+<body>
+    
+<section class="login-sec d-flex align-items-center justify-content-center">
+    
+<form action="" class="  text-center form-style py-4 px-4  col-md-6 col-sm-8 col-lg-4 col-xl-3 col-10">
+    <div class="log">
+        <i class="fa-regular fa-user mb-4  rounded-circle  "></i>
+       
+    </div>
+   
+    <div class="user-input d-flex align-items-baseline mb-4 position-relative">
+       
+        <div class=" position-relative  col-10">
+            
+            <input type="text" id="NameInput"placeholder="" class="log-input">
+            <label for="NameInput">Your Name</label >
+    
+        </div>
+        <span class="position-absolute text-info d-none">the name is not valid</span>
+       
+       </div>
+
+   <div class="user-input  d-flex align-items-baseline mb-4 position-relative">
+   
+    <div class="position-relative  col-10">
+        
+        <input type="text" id="newEmail"placeholder="" class="log-input">
+        <label for="newEmail">Email</label >
+
+    </div>
+    <span class="position-absolute text-info d-none">the Email is not valid</span>
+    
+   </div>
+   
+   
+   <div class="user-input d-flex align-items-baseline mb-4 position-relative  ">
+    
+    <div class="position-relative  col-12">
+        
+        <input type="password" id="newPassword" placeholder=" " class="log-input">
+        <label for="newPassword">Password</label>
+        
+       
+        
+    </div>
+   
+    <span class="position-absolute text-info d-none"> password must have special charc,capital,number</span>
+    
+   </div>
+   <p class="text-success success d-none">Success!</p>
+   <div>
+    <button class="btn btn-outline-info w-100">Sign Up</button>
+   </div>
+   <div class="mt-3 text-center">
+    <span>Do you have an account ?</span>
+    <a href="./index.html">Sign in</a>
+   </div>
+</form>
+
+</section>
+
+
+    <script src="./js file/bootstrap.bundle.min.js"></script>
+    <script src="./js file/index.js"></script>
+</body>
+</html>
